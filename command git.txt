@@ -1,0 +1,126 @@
+- Thiết lập username:
+
+git config --global user.name your_name
+
+git config --global user.name Tranhaan
+
+- Kiểm tra username:
+
+git config user.name
+
+- Thiết lập email:
+
+git config --global user.email email
+
+git config --global user.email tranhaan1997@gmail.com
+
+- Kiểm tra email:
+
+git config user.email
+
+- Tạo local repository ( kho chứa code trong máy tính để upload code lên git)
+
+git init
+
+- Tạo repository online trên github
+
+- Đẩy code lên github
+
+git status (kiểm tra trạng thái của những file thay đổi)
+
+git add .  (thêm tất cả file lên github)
+
+git status
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/tranhaan1997/python_git.git  (câu lệnh kết nối local với github)
+
+git push origin master   (câu lệnh đẩy code lên github)
+
+- Update code lên github
+
+git status
+
+git add .
+
+git status
+
+git commit -m "first commit"
+
+git push origin master\
+
+- Liệt kê các file đã bị tác động thay đổi
+
+git status -s
+
+- Khi xoá một file trên máy tính và cần đồng bộ update lên git cho mất file đã xoá giống như trên máy tính thì dùng lệnh (áp dụng cho xoá nhiều file trên github)
+
+git add -A
+
+git commit -m "Delete File"
+
+git push origin master
+
+- Trong trường hợp trên máy tính xoá nhiều file nhưng trên github chỉ cần update xoá một file thôi thì dùng lệnh git rm áp dụng cho từng file
+
+git status
+
+git rm style.css (tên file muốn đồng bộ xoá trên github)
+
+git commit -m "Xoa file style.css"
+
+git push origin master
+
+(sau đó vẫn phải thực hiện git status để check lại và update file lên git, trong một số trường hợp dùng git add . có thể update cả file đã xoá trên máy tính lên repo trên git)
+
+
+- Thêm từng file lên github
+
+git add index.html (tên file)
+
+
+- Cấu trúc câu lệnh git commit trong đi làm git commit -m "[#mã task] + [thêm/sửa/xoá] + [tính năng]"
+Ví dụ git commit -m "#1900 [ADD] Create add new product page"
+
+- Sửa chú thích trong câu lệnh git commit
+
+git commit --am -m "Chú thích thay thế"
+
+- Cấu trúc của git push
+
+git push origin branch_name
+origin là tên ban đầu remote của repository
+
+- Cách kéo toàn bộ source code về máy
+
+git clone + source github
+
+git clone https://github.com/tranhaan1997/python_git.git
+
+- Để update code từ trên github về dự án đang làm thì trước tiên phải fetch code từ trên github về repository tạm sau đó mới pull code về máy tính
+
+git fetch origin (Kho chứa của bạn tên origin, tải về tất cả thông tin của nó từ remote)
+
+Hoặc sử dụng:
+
+git fetch --all
+
+- Để update code từ một branch cụ thể, ví dụ master của remote origin
+
+git fetch origin master
+
+- Để update code về máy tính sử dụng lệnh pull
+
+git pull origin master
+
+Hoặc nếu muốn trỏ mặc định về nhánh master
+
+git pull
+git branch --set-upstream-to=origin/master master
+git pull
+
+- Lệnh loại trừ file ra không cho upload github
+
+git add .
+git rm -r --cached /path/to/file_or_folder #git irgone
