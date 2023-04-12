@@ -7,7 +7,7 @@
     <title>Assessment test html</title>
 </head>
 <body>
-    <form action="get">
+    <form action="thankyou.html" method="get">
         <h1>Course Sign Up Page</h1>
         <h3>Please Note: First Name, Last Name, Password, and Email are required</h3>
         <label for="FirstName">First Name: </label>
@@ -18,7 +18,18 @@
         <input type="email" id="Email" placeholder="name@email.com" required>
         <label for="Password">Password: </label>
         <input type="password" id="Password" required>
-
+        <h3>are you over age of 18?</h3>
+        <label for="yes">Yes: </label>
+        <input type="radio" id="yes">
+        <label for="no">No: </label>
+        <input type="radio" id="no">
+        <h3>Do you have Credit Card or Paypal?</h3>
+        <select name="payment">
+            <option value="CreditCard">Credit Card</option>
+            <option value="Paypal">Paypal</option>
+        </select>
+        <br>
+        <input type="submit" value="submit">
     </form>
 </body>
 </html>
