@@ -1,0 +1,37 @@
+body {
+    background-color: #ABDCE8;
+}
+
+h1 {
+    border: 2px solid black;
+}
+
+#thanks {
+    background-color: #FFF7A0;
+}
+
+.question {
+    color: #AE63AB;
+}
+
+#textinput {
+    color: #AE63AB;
+    text-decoration: overline 2px;
+}
+
+.formbox {
+    border: 2px solid orange;
+}
+
+.feedback {
+    background-color: blue;
+    border: 4px dashed #FFF7A0;
+}
+
+div p {
+    background-color: #FFF7A0;
+}
+
+a:visited {
+    color:red;
+}
