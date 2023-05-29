@@ -1,0 +1,12 @@
+.header{
+    height: 30px;
+    background-color: #001429;
+    margin: -20px;
+}
+.main_area{
+    /* background-color: #001429; */
+    background-color: cyan;
+    text-align: center;
+    margin: 0px 50px 10px 50px;
+}
+
