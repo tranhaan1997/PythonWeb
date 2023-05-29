@@ -5,7 +5,10 @@ h1{
 }
 
 table{
-    margin: 60px 100px 100px 450px;
+    /* margin: 60px 100px 100px 430px; */
+    /* border-collapse: separate; */
+    margin: auto;
+    border-spacing: 25px;
 }
 
 #head1{
