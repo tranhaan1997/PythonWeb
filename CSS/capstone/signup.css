@@ -9,4 +9,13 @@
     text-align: center;
     margin: 0px 50px 10px 50px;
 }
-
+.para{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+label{
+    font-size: 1.2em;
+}
