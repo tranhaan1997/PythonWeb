@@ -15,6 +15,7 @@ p,h1,h2,label{
     margin-left: 50px;
     margin-right: 50px;
 }
+<<<<<<< HEAD
 .textpara{
     margin-left: 100px;
     margin-right: 100px;
@@ -25,4 +26,15 @@ p,h1,h2,label{
     margin-right: auto;
     width: 8em;
     color: red;
+=======
+.para{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+label{
+    font-size: 1.2em;
+>>>>>>> ab3c76cf43cc586742a77f27ff7bda3af675ef2e
 }
