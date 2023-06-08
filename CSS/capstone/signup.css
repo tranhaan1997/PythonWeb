@@ -1,12 +1,28 @@
+body{
+    background-color: cyan;
+}
+p,h1,h2,label{
+    color: white;
+}
 .header{
     height: 30px;
     background-color: #001429;
     margin: -20px;
 }
 .main_area{
-    /* background-color: #001429; */
-    background-color: cyan;
+    background-color: #001429;
     text-align: center;
-    margin: 0px 50px 10px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-
+.textpara{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 8em;
+}
+.para{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    color: red;
+}
