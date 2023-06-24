@@ -3,6 +3,7 @@ body{
 }
 p,h1,h2,label{
     color: white;
+    text-align: center;
 }
 .header{
     height: 30px;
@@ -15,19 +16,8 @@ p,h1,h2,label{
     margin-left: 50px;
     margin-right: 50px;
 }
-<<<<<<< HEAD
-.textpara{
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 8em;
-}
 .para{
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em;
-    color: red;
-=======
-.para{
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
     width: 30em;
@@ -36,5 +26,21 @@ p,h1,h2,label{
 }
 label{
     font-size: 1.2em;
->>>>>>> ab3c76cf43cc586742a77f27ff7bda3af675ef2e
+}
+
+#submit{
+    font-size: 1.2em;
+    border-radius: 20px;
+    width: 160px;
+    height: 90px;
+    background-color: orange;
+}
+
+.box{
+    height: 20px;
+    width: 300px;
+}
+
+.footer{
+    background-color: #001429;
 }
